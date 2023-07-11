@@ -42,8 +42,8 @@ namespace medium
             }
             if (enBuyukHarfSayisi > enBuyukEsitHarflerSayisi)
             {
-                Console.WriteLine("En büyük harf sayisi{0}", enBuyukHarfSayisi);
-                Console.WriteLine("En büyük harf {0}", enBuyukHarf);
+                Console.WriteLine("En çok tekrar eden harf: {0}", enBuyukHarf);
+                Console.WriteLine("En çok tekrar eden harf sayısı: {0}", enBuyukHarfSayisi);
             }
             else
             {
