@@ -11,17 +11,12 @@ namespace medium
         static void Main(string[] args)
         {
             Console.Write("Lütfen büyütmek istediğiniz kelimeyi giriniz: ");
-            try
-            {
-                string kelime = Console.ReadLine();
 
-                Console.WriteLine("Büyütülmüş kelime: " + kelime.ToUpper());
-            }
-            catch(FormatException ex)
-            {
-                Console.WriteLine("Lütfen string türünde bir değer giriniz!");
-            }
+            string kelime = Console.ReadLine();
+
+            Console.WriteLine("Büyütülmüş kelime: " + kelime.ToUpper());
             
+           
 
             Console.ReadLine();
         }
