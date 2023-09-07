@@ -21,7 +21,7 @@ namespace easy
                 faktoriyel *= i;
             }
 
-            Console.WriteLine("{0} ! = {1}",sayi, faktoriyel);
+            Console.WriteLine("{0}! = {1}",sayi, faktoriyel);
             Console.ReadLine();
 
         }
